@@ -20,6 +20,3 @@ function createGalleryMarkUp(items){
 const addGalleryMarkUp = createGalleryMarkUp(galleryItems);
 ulEl.innerHTML = addGalleryMarkUp;
 const lightbox = new SimpleLightbox('.gallery a');
-
-
- 
