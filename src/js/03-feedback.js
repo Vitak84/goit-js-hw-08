@@ -5,7 +5,7 @@ const formInputs = {};
 formEl.addEventListener('input',throttle ((evt) =>{
     formInputs[evt.target.name]= evt.target.value;
     localStorage.setItem(STORAGE_KEY,JSON.stringify(formInputs));
-}),500);
+},500));
 function savedInputsValue(){
     const getData = localStorage.getItem(STORAGE_KEY); 
   if(getData){
